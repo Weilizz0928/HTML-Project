@@ -1,0 +1,122 @@
+/* Intro Section */
+body{
+    background-color: rgb(197, 252, 244);
+}
+.intro-company {
+    display: flex;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro-content{
+    display: flex;
+}
+
+.intro-img{
+    flex: 1;
+}
+.intro-img img{
+    border-radius: 20px;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 5px black;
+}
+.intro{
+    flex: 1;
+    word-wrap: break-word;
+}
+.intro-company h1 {
+    font-size: 64px;
+    color:#333;
+    margin-bottom: 10px;
+    line-height: 0.8;
+}
+  
+.intro-company h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+  
+.intro-company .intro-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin-left: auto ; 
+}
+
+/* Services Section */
+.service-type {
+    width: auto ;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+.service-type h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+  
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+  
+.service-image {
+    width: 240px;
+    height: 320px;
+}
+.service-image p {
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    padding: 0 10px;
+}
+
+.service-container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.service-image p {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    padding: 0 10px;
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .intro-company {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro h1{
+        font-size: 2rem;
+    }
+    .intro-company {
+        margin: 30px;
+    }
+}

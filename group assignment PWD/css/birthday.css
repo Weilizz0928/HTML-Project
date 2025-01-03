@@ -1,0 +1,27 @@
+.link-button { 
+    color: #3a96d8;
+    border: 2px solid #3a96d8;
+    background-color: #ffffff;
+}
+
+.link-button:hover {
+    background-color: #3a96d8;
+    color: white;
+}
+
+.package-container{ 
+    background-color: #94ffd8;
+}
+
+body{
+    background-color: #fdffc2;
+    font-family: monospace;
+}
+
+footer{
+    background-color: #ff76ce;
+}
+
+header{
+    background-color: #ff76ce;
+}

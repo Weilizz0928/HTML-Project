@@ -1,0 +1,27 @@
+.link-button { 
+    color: #48b3ff;
+    border: 2px solid #48b3ff;
+    background-color: #ffffff;
+}
+
+.link-button:hover {
+    background-color: #48b3ff;
+    color: white;
+}
+
+.package-container{ 
+    background-color: #D4F6FF;
+}
+
+body{
+    background-color: #FBFBFB;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer{
+    background-color: #48b3ff;
+}
+
+header{
+    background-color: #48b3ff;
+}
